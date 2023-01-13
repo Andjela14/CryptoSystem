@@ -105,8 +105,7 @@ namespace Crypto_system_17180
             {
                 this.buttonEncrypt.Enabled = false;
                 MessageBox.Show("Invalid directory name!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-                
+            } 
         }
                  
         private void buttonEncrypt_Click(object sender, EventArgs e)
