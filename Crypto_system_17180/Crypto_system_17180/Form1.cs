@@ -44,8 +44,6 @@ namespace Crypto_system_17180
             this.tbDecryptFilePath.Text = "";
             this.tbDecryptedDest.Text = "";
             this.tbEncodePath.Text = "";
-
-
         }
 
         private void buttonWatch_Click(object sender, EventArgs e)
@@ -69,14 +67,12 @@ namespace Crypto_system_17180
                 systemWatcher.StopSystemWatcher();
                 buttonWatch.Text = "START Watcher";
                 this.EnableButtons(true);
-
             }
         }
 
         private void buttonBrowseDest_Click(object sender, EventArgs e)
         {
             this.BrowseFolder(this.tbDestinationPath);
-            
         }
 
         private void buttonSetDest_Click(object sender, EventArgs e)
